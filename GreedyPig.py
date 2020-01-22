@@ -14,7 +14,6 @@ import random
 MIN_PLAYERS = 2
 MAX_PLAYERS = 6
 
-# strategy 1, 2 or 3. strategy 
 # basic is 0 and default, advanced is 1 
 DEFAULT_GAME_TYPE = 0
 
