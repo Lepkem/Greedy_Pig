@@ -44,15 +44,6 @@ class Player:
     def Show_Score(self):
         print(f"{self.name}'s current score is:{self.score}")
 
-# class Relationship:
-#     # init -- happens only once when u create the class 
-#     def __init__(self):
-#         print("we met")
-#     def MakeLove():
-#         print("making love)")
-#     def BreakUp():
-#         print("breakingu")
-
 # this function contains a die with 6 surfaces
 def throwdie():
     throwvalue = (random.randint(1,6))
@@ -170,7 +161,6 @@ def logo():
     print("╚██████╔╝██║  ██║███████╗███████╗██████╔╝   ██║       ██║     ██║╚██████╔╝")
     print(" ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝    ╚═╝       ╚═╝     ╚═╝ ╚═════╝ ")
     print("")
-    print("By Jordan Guerrero, Jasper Jumulet and Gerben Put")
     print("")
 
 def YouWon():
